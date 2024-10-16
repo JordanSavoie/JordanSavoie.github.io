@@ -26,3 +26,9 @@ h3 {
     color: #8e96f0;
   }
 }
+
+.image {
+	object-fit: contain;
+	width:100%;
+
+}
