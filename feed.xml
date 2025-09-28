@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<atom:link href="https://jordansavoie.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+	<title>Terrible Solutions</title>
+	<link>https://jordansavoie.github.io/solutions.html</link>
+	<description>Terrible Solutions to Deumb Problems</description>
+<!-- 
+	<image>
+		 <url>https://www.scriptol.com/scriptol.gif</url>
+		<link>https://www.scriptol.com/index.php</link>
+	</image>
+ -->
+	<item>
+		<title>Fixing Tuning and Pitch Bending Problems in a Korg Poly 800</title>
+		<link>https://jordansavoie.github.io/solutions/poly-800.html</link>
+		<guid>https://jordansavoie.github.io/solutions/poly-800.html</guid>
+		<description>The Korg Poly 800 is a classic mid-tier 80s synth.
+		It uses a rare mix of analog and digital sound generation to make a sort of square-wave organ not seen in many other synthesizers.
+		Over the past couple years the tuning slider of mine has intermittently ceased functioning.</description>
+	</item>
+	<item>
+		<title>Dimming a Stellarvue Red Dot Sight</title>
+		<link>https://jordansavoie.github.io/solutions/stellarvue.html</link>
+		<guid>https://jordansavoie.github.io/solutions/stellarvue.html</guid>
+		<description>
+			I bought the Stellarvue Multi-Reticle Finder (MRF)last year.
+			Apparently it was originally designed as a sight for rifles but wasn't strong enough to maintain alignment between shots.
+			This is no problem for amateur astronomy, in which you don't expect your telescope to experience large shocks.
+			It makes for a high-quality and relatively compact red-dot finder.
+			After all these years though, no one has bothered to change the LED to one suited for nighttime use even though it's marketed by Stellarvue as a telescope view finder.</description>
+	</item>
+</channel>
+</rss>

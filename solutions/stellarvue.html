@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Stellarvue</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../style.css">
+		<link rel="alternate" type="application/rss+xml"
+			href="../feed.xml" title="Terrible Solutions">
+	</head>
+	<body>
+	<h1>Dimming a Stellarvue Red Dot Sight</h1>
+	<h2><a href="../solutions.html">Part of a Series on Solutions to Problems</a>
+	<a href="../feed.xml">
+		<img width=20 title="RSS badge" src="../images/rss.svg">
+	</a>
+	</h2>
+	
+	<p>
+	I bought the <a href="https://www.stellarvue.com/product/1-f002-mrf-finder"> Stellarvue Multi-Reticle Finder (MRF)</a> last year.
+	<a href="https://www.cloudynights.com/articles/cat/user-reviews/accessories/finderscopes/multi-reticle-finder-r1212">Apparently</a> it was originally designed as a sight for rifles but wasn't strong enough to maintain alignment between shots.
+	This is no problem for amateur astronomy, in which you don't expect your telescope to experience large shocks.
+	It makes for a high-quality and relatively compact red-dot finder.
+	After all these years though, no one has bothered to change the LED to one suited for nighttime use even though it's marketed by Stellarvue as a telescope view finder.
+	</p>
+	
+	<p>
+	Rather than returning the MRF, I figured I'd dim the LED myself by adding a resistor to restrict the current through it.
+	The first step is to remove the dovetail screws with an M3 hex key.
+	</p>
+	
+	<img class="image" src="./stellarvue/dovetail_screws.jpg"
+		title="Picture showing the bottom of the MRF with the two dovetail screws visible."
+	>
+	
+	<p>
+	After that comes the retainer for the left/right adjustment screw.
+	Remove the set screw on the side with an M2 hex key and make sure not to lose the spring, metal plunger, and plastic bit which you will need to place back in that order later.
+	Next, remove the retainer screw on the bottom with a flathead screwdriver.
+	</p>
+	
+	<img class="image" src="./stellarvue/retainer.jpg"
+		title="Picture showing the two retaining screws"
+	>
+	
+	<p>
+	Next, remove the up/down adjustment screw with an M3 hex key.
+	This is the only thing holding in the nut on the bottom as well as the two springs which oppose the screw, so make sure not to lose any of those.
+	</p>
+	
+	<img class="image" src="./stellarvue/top_screw.jpg"
+		title="Picture showing the top screw"
+	>
+	
+	<p>
+	With the wires going to the battery exposed, you can now carefully remove the white wire from the black wire, snip it, strip it, and solder in a resistor to the white wire.
+	You'll probably want to remove a little of the white wire since there isn't room for the extra length the resistor would add.
+	After testing several I ended up using a 100&nbsp;kΩ resistor, which provides satisfactorily low glare for all but the dimmest stars visible in my light polluted sky.
+	</p>
+	
+	<img class="image" src="./stellarvue/splice.jpg"
+		title="Picture showing the resistor soldered into the white wire."
+	>
+	
+	<p>
+	I used liquid electrical tape to insulate the splice.
+	After that I reassembled everything.
+	</p>
+	
+	<img class="image" src="./stellarvue/insulated.jpg"
+		title="Picture showing the splices insulated with liquid electrical tape."
+	>
+	
+	Since this resistor is an order of magnitude larger than the resistances in the rotary knob, turning it makes virtually no discernible difference to the brightness.
+	This means that the modded MRF is useless during the daytime, but that's a sacrifice I'm willing to make.
+	A better mod would modify or replace the rotary switch itself, but to be honest I couldn't figure out how to disassemble the MRF much further than this.
+</html>
