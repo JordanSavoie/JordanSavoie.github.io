@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+  <item name="Advanced Opening Hours">
+    <label text="Opening hours and maintenance info" />
+
+    <text key="opening_hours" text="Opening hours" />
+    <combo key="source:opening_hours" text="Source" values="entrance,survey,website,window,LT:alcohol" />
+    <text key="opening_hours:url" text="Source website" />
+    <text key="check_date:opening_hours" text="Date last checked" use_last_as_default="force"/>
+  </item>
+</presets>
