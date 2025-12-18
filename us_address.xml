@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+  <item name="US Address" icon="presets/misc/housenumber.svg">
+    <label text="Address preset for United States of America" />
+
+    <text key="addr:housenumber" text="House number" />
+    <text key="addr:unit" text="Unit/Suite"/>
+    <text key="addr:street" text="Street name" use_last_as_default="force"/>
+    <text key="addr:city" text="City name" use_last_as_default="force"/>
+    <text key="addr:postcode" text="ZIP code" use_last_as_default="force"/>
+    <!-- US States as defined in ISO 3166-2 -->
+    <combo key="addr:state" text="State" text_context="addr:" values="AL,AK,AZ,AR,CA,CO,CT,DE,FL,GA,HI,ID,IL,IN,IA,KS,KY,LA,ME,MD,MA,MI,MN,MS,MO,MT,NE,NV,NH,NJ,NM,NY,NC,ND,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VT,VA,WA,WV,WI,DC,AS,GU,MP,PR,UM,VI" use_last_as_default="force" match="key" />
+  </item>
+</presets>
