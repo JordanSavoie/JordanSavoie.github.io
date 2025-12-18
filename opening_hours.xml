@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-  <item name="Advanced Opening Hours">
+  <item name="Advanced Opening Hours" icon="presets/service/clock.svg">
     <label text="Opening hours and maintenance info" />
 
     <text key="opening_hours" text="Opening hours" />
