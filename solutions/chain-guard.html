@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Chainguard</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../style.css">
+		<link rel="alternate" type="application/rss+xml"
+			href="../feed.xml" title="Terrible Solutions">
+	</head>
+	<body>
+	<h1>Modeling a Bicycle Chainguard in OpenSCAD</h1>
+	<small>2026-08-24</small>
+	<h3><a href="../solutions.html">Part of a Series on Solutions to Problems</a>
+	<a href="../feed.xml">
+		<img width=20 title="RSS badge" src="../images/rss.svg">
+	</a>
+	</h3>
+
+	<p>
+	I like to ride to and from work on a sporty mountain bike. 
+	Naturally to save weight, it did not come with any sort of guard to prevent calves or pants from being caught on the chainring.
+	I like my pants to be clean and unholed, so I decided to make a 3D-printed guard since no commercially-made ones seem to be sold for it.
+	</p>
+	
+	<p>
+	The chainring has four equally-spaced M5 threaded holes for mounting.
+	The easiest way to find the center position of these holes was to find the inner and outer diameters of two opposite holes.
+	After this, the next most important dimenions are the inner chain diameter, the outer chain diameter, and the flare.
+	For me, the easiest way to measure inner and outer chain diameter was relative to the already-measured screw holes.
+	The limiting dimension for the flare isn't the chain itself, but rather the front derailleur, which can rub on the flange if it isn't well-sized.
+	</p>
+	
+	<p>
+	I wrote an <a href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD</a> model you can find <a href="./guard/guard.scad">here</a>.
+	I made it to be fully parametric with the exception of some hardcoded tolerances, so I hope you find it useful even if your chainring is not the same as mine.
+	</p>
+	
+</html>

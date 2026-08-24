@@ -30,5 +30,12 @@
 			It makes for a high-quality and relatively compact red-dot finder.
 			After all these years though, no one has bothered to change the LED to one suited for nighttime use even though it's marketed by Stellarvue as a telescope view finder.</description>
 	</item>
+	<item>
+		<title>Modeling a Bicycle Chainguard in OpenSCAD</title>
+		<link>https://jordansavoie.github.io/solutions/chain-guard.html</link>
+		<guid>https://jordansavoie.github.io/solutions/chain-guard.html</guid>
+		<description>I made a 3D-printed doohicky to protect my pants while riding my bike.
+		Feel free to use and modify the file!</description>
+	</item>
 </channel>
 </rss>
