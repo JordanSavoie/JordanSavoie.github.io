@@ -37,5 +37,12 @@
 		<description>I made a 3D-printed doohicky to protect my pants while riding my bike.
 		Feel free to use and modify the file!</description>
 	</item>
+	<item>
+		<title>A Few JOSM Presets</title>
+		<link>https://jordansavoie.github.io/solutions/josm-presets.html</link>
+		<guid>https://jordansavoie.github.io/solutions/josm-presets.html</guid>
+		<description>I made some presets for JOSM.
+		Feel free to use them!</description>
+	</item>
 </channel>
 </rss>
