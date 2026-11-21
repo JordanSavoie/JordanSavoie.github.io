@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Octave Functions</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../style.css">
+		<link rel="alternate" type="application/rss+xml"
+			href="../feed.xml" title="Terrible Solutions">
+	</head>
+	<body>
+	<h1>A Few GNU Octave Function Files</h1>
+	<small>2026-11-20</small>
+	<h2><a href="../solutions.html">Part of a Series on Solutions to Problems</a>
+	<a href="../feed.xml">
+		<img width=20 title="RSS badge" src="../images/rss.svg">
+	</a>
+	</h2>
+	<p>
+		I learned to use <a href="https://en.wikipedia.org/wiki/MATLAB">Matlab</a> as part of my education, but its proprietary licensing and sluggish GUI application quickly drove me to use <a href="https://octave.org">GNU Octave</a> instead.
+		I typically use it for most routine numerical programming applications and very often as a general scripting language.
+		Some might scoff at that, but I don't enjoy writing Python. 
+	</p>
+	
+	<p>
+		In my work, I've developed various functions, some of which are more generally useful.
+		Here are a few:
+	</p>
+	
+	<ul>
+		<li><a href="./octave/consecMedian.m">consecMedian.m</a>: Takes the median of consecutive runs of a function.</li>
+		<li><a href="./octave/savedat.m">savedat.m</a>: Save a tab-separated variable file with headers.</li>
+		<li><a href="./octave/systemsolver.m">systemsolver.m</a></li>
+	</ul>
+	These are of interest mostly only to electrical engineers:
+	<ul>
+		<li><a href="./octave/electrical/db.m">db.m</a></li>
+		<li><a href="./octave/electrical/par.m">par.m</a> Takes the parallel combination of its inputs.</li>
+		<li><a href="./octave/electrical/s2pImport.m">s2pImport.m</a></li>
+		<li><a href="./octave/electrical/s2pExport.m">s2pExport.m</a></li>
+		<li><a href="./octave/electrical/s2t.m">s2t.m</a></li>
+		<li><a href="./octave/electrical/Srenorm.m">Srenorm.m</a></li>
+	</ul>
+	</body>
+</html>

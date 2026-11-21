@@ -44,5 +44,11 @@
 		<description>I made some presets for JOSM.
 		Feel free to use them!</description>
 	</item>
-</channel>
+	<item>
+		<title>A Few GNU Octave Function Files</title>
+		<link>https://jordansavoie.github.io/solutions/octave-functions.html</link>
+		<guid>https://jordansavoie.github.io/solutions/octave-functions.html</guid>
+		<description>I made some functions for GNU Octave.
+		Feel free to use them!</description>
+	</item></channel>
 </rss>
